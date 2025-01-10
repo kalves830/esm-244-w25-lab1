@@ -178,7 +178,7 @@ oak_pine_year_df<-sfo_trees_native |>
 
 #input into a t.test
 
-t.test(plant_year)
+t.test(plant_year~spp_sci, data=oak_pine_year_df)
 ```
 
 
